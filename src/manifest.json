@@ -1,0 +1,42 @@
+{
+  "$schema": "https://raw.githubusercontent.com/BohemianCoding/SketchAPI/develop/docs/sketch-plugin-manifest-schema.json",
+  "icon": "icon.png",
+  "commands": [
+    {
+      "name": "Enable all overrides",
+      "identifier": "enableAll",
+      "script": "./main.js",
+      "handler": "enableAll"
+    },
+    {
+      "name": "Enable only dynamic overrides",
+      "description": "Use {} inside the override to show that this is a dynamic data",
+      "identifier": "enableDynamic",
+      "script": "./main.js",
+      "handler": "enableDynamic",
+      "shortcut": "control shift ⌫"
+    },
+    {
+      "name": "Disable all overrides",
+      "identifier": "disableAll",
+      "script": "./main.js",
+      "handler": "disableAll"
+    },
+    {
+      "name": "How it works?",
+      "identifier": "howWorks",
+      "script": "./main.js",
+      "handler": "howWorks"
+    }
+  ],
+  "menu": {
+    "title": "Override Automator",
+    "items": [
+      "enableAll",
+      "enableDynamic",
+      "disableAll",
+      "-",
+      "howWorks"
+    ]
+  }
+}
