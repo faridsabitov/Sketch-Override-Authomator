@@ -1,6 +1,6 @@
 {
   "name": "override-manager",
-  "description": "",
+  "description": "Automatically hide overrides that don't have {curly} brackets. Used to help managing overrides when you are working with https://www.datapopulator.com/",
   "version": "0.1.0",
   "engines": {
     "sketch": ">=49.0"
