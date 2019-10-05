@@ -23,6 +23,12 @@
       "handler": "disableAll"
     },
     {
+      "name": "Update the name of the nested symbols",
+      "identifier": "updateName",
+      "script": "./main.js",
+      "handler": "updateName"
+    },
+    {
       "name": "How it works?",
       "identifier": "howWorks",
       "script": "./main.js",
@@ -35,6 +41,8 @@
       "enableAll",
       "enableDynamic",
       "disableAll",
+      "-",
+      "updateName",
       "-",
       "howWorks"
     ]
